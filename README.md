@@ -1,19 +1,17 @@
 # Getting-and-Cleaning-Data
-Getting and Cleaning Data - Course Project
-This repository was built for the course project of the "Getting and Cleaning Data" course at Coursera.  
 
-Project Summary
+1. Project Summary
 The goal of this project is to create a tidy data data set with the help of R to analyze experimental results which were captured in the [Human Activity Recognition Using Smartphones] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) study.
 The run_analysis.R script should be run on the [data] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and it will complete the following steps to transform the data into something that we are able to glean information out of.
 
-Merges the training and the test sets to create one data set.
+2. Merges the training and the test sets to create one data set.
 Extracts only the measurements on the mean and standard deviation for each measurement.
 Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-Repository Information
+3. Repository Information
 This repository contains 3 main files:
 
 
@@ -24,7 +22,7 @@ tidy.txt - This is the final output from the run_analysis.R script.  It contains
 CodeBook.md - Contains the definitions of each of the columns in our generated tidy.txt file.
 
 
-Please Note
+4. Please Note
 
 If you do not have the reshape2 plugin installed, the run_analysis.R file will automatically install it.
 If you do not have the data downloaded then it will automatically download the files so it can work on them.
